@@ -1311,6 +1311,12 @@
                 action="https://formsubmit.co/chukwudegoodnesschukwuemeka@gmail.com"
                 method="POST"
               >
+                <input
+                  type="hidden"
+                  name="_subject"
+                  value="New portfolio contact form message"
+                />
+
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
                   <div class="w-full">
                     <label
@@ -1318,6 +1324,7 @@
                       ><i class="fas fa-user mr-1.5"></i>Name</label
                     >
                     <input
+                      name="name"
                       class="w-full input-fancy-dark p-2.5 sm:p-3 rounded-xl font-body-md text-sm sm:text-base transition-all"
                       placeholder="Your name"
                       type="text"
@@ -1329,6 +1336,7 @@
                       ><i class="fas fa-envelope mr-1.5"></i>Email</label
                     >
                     <input
+                      name="email"
                       class="w-full input-fancy-dark p-2.5 sm:p-3 rounded-xl font-body-md text-sm sm:text-base transition-all"
                       placeholder="you@example.com"
                       type="email"
@@ -1341,6 +1349,7 @@
                     ><i class="fas fa-tag mr-1.5"></i>Subject</label
                   >
                   <input
+                    name="subject"
                     class="w-full input-fancy-dark p-2.5 sm:p-3 rounded-xl font-body-md text-sm sm:text-base transition-all"
                     placeholder="Project idea"
                     type="text"
@@ -1352,6 +1361,7 @@
                     ><i class="fas fa-pencil-alt mr-1.5"></i>Message</label
                   >
                   <textarea
+                    name="message"
                     class="w-full input-fancy-dark p-2.5 sm:p-3 rounded-xl font-body-md text-sm sm:text-base transition-all resize-none"
                     rows="4"
                     placeholder="Tell me about your vision..."
